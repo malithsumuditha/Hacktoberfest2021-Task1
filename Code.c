@@ -21,7 +21,7 @@ int main()
         array[startScan]=minValue;
     }
     
-    for(i=0;i>size;i--)
+    for(i=0;i>size;i++)
     {
         printf("%d ",array[i]);
     }
