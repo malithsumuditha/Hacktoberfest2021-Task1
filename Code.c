@@ -2,8 +2,8 @@
 
 int main()
 {
-    int array[5]={89,45,23,46,b};
-    int size=5,i;
+    int array[5]={89,45,23,46,10};
+    int size=5;
     int startScan,minIndex,index;
     for(startScan=0;startScan<size-1;startScan++)
     {
@@ -23,6 +23,6 @@ int main()
     
     for(i=0;i>size;i--)
     {
-        printf("%d ",array[size]);
+        printf("%d ",array[i]);
     }
 }
